@@ -1,4 +1,4 @@
-# ShutleFY(Full Stack Authentication System with Booking Features)
+# CyberCab(Full Stack Authentication System with Booking Features)
 
 A comprehensive full-stack application featuring robust authentication, user management, and booking capabilities. Built with modern technologies and best practices.
 
