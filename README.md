@@ -7,6 +7,7 @@ A comprehensive full-stack application featuring robust authentication, user man
 ![WhatsApp Image 2025-03-23 at 17 01 04_3935ca14](https://github.com/user-attachments/assets/c8791432-bae6-4eeb-b064-782e9c97c6ec)
 ![WhatsApp Image 2025-03-23 at 17 01 04_b29527f0](https://github.com/user-attachments/assets/44224c73-d91f-4989-b675-4d59260b9540)
 ![WhatsApp Image 2025-03-23 at 17 01 01_c2555c91](https://github.com/user-attachments/assets/4acdc53a-4445-41c2-a740-577eaefe7882)
+![WhatsApp Image 2025-03-23 at 17 01 03_fc080354](https://github.com/user-attachments/assets/a1e6affa-3546-4816-9c0b-6fffeb1a7bbd)
 
 
 ## 🌟 Features
