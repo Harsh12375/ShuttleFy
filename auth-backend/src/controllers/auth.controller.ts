@@ -544,8 +544,7 @@ export default {
   resetPassword,
   registerAdmin,
   registerPrimeAdmin,
-<<<<<<< HEAD
+
 }; 
-=======
-}; 
->>>>>>> dc78d568a6e80852b3419d19e72e6b51da2f09e0
+
+

@@ -54,13 +54,13 @@ app.use(passport.session());
 // Sync database with models
 const initializeDatabase = async () => {
   try {
-<<<<<<< HEAD
+
     // Change from alter: true to force: false to prevent SQLite constraint issues
     const syncOptions = { force: false }; // This will not try to alter tables but only create if missing
-=======
+
     // Use alter mode to preserve data in development environment
     const syncOptions = { alter: true }; // This preserves data while updating schemas
->>>>>>> dc78d568a6e80852b3419d19e72e6b51da2f09e0
+
     
     await sequelize.sync(syncOptions);
     console.log('Database models synchronized successfully. Tables created if they didn\'t exist.');
