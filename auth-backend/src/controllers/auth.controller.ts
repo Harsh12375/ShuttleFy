@@ -48,9 +48,15 @@ export const register = async (req: Request, res: Response) => {
       userRole = UserRole.ADMIN;
     }
 
+<<<<<<< HEAD
     // Generate OTP for email verification
     const otp = generateOTP();
     console.log('Generated OTP for testing:', otp); // Log OTP for testing purposes
+=======
+   
+    const otp = generateOTP();
+    console.log('Generated OTP for testing:', otp); 
+>>>>>>> dc78d568a6e80852b3419d19e72e6b51da2f09e0
     
     const otpExpiration = new Date();
     otpExpiration.setMinutes(otpExpiration.getMinutes() + 5); // 5 minutes from now
@@ -540,4 +546,8 @@ export default {
   resetPassword,
   registerAdmin,
   registerPrimeAdmin,
+<<<<<<< HEAD
 }; 
+=======
+}; 
+>>>>>>> dc78d568a6e80852b3419d19e72e6b51da2f09e0
