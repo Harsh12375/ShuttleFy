@@ -48,9 +48,9 @@ export const register = async (req: Request, res: Response) => {
       userRole = UserRole.ADMIN;
     }
 
-    // Generate OTP for email verification
+   
     const otp = generateOTP();
-    console.log('Generated OTP for testing:', otp); // Log OTP for testing purposes
+    console.log('Generated OTP for testing:', otp); 
     
     const otpExpiration = new Date();
     otpExpiration.setMinutes(otpExpiration.getMinutes() + 5); // 5 minutes from now
