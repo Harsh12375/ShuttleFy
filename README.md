@@ -35,6 +35,16 @@ A comprehensive full-stack application featuring robust authentication, user man
 - System monitoring
 - Analytics and reporting
 
+### Performance & Caching
+- Redis-based caching system
+- API response caching
+- User session caching
+- Rate limiting with Redis
+- Cache invalidation strategies
+- Distributed caching support
+- Cache warming mechanisms
+- Real-time cache updates
+
 ## 🏗️ Project Structure
 
 ```
@@ -77,6 +87,8 @@ A comprehensive full-stack application featuring robust authentication, user man
 - JWT for token management
 - Nodemailer for email delivery
 - Speakeasy for OTP generation
+- Redis for caching and rate limiting
+- Bull for job queues and background tasks
 
 ### Frontend
 - React with TypeScript
@@ -135,6 +147,18 @@ DB_PORT=3306
 DB_NAME=auth_db
 DB_USER=root
 DB_PASSWORD=password
+
+# Redis Configuration
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=your_redis_password
+REDIS_DB=0
+
+# Cache Configuration
+CACHE_TTL=3600
+CACHE_PREFIX=auth_app
+RATE_LIMIT_WINDOW=15
+RATE_LIMIT_MAX_REQUESTS=100
 
 # JWT Configuration
 JWT_SECRET=your_jwt_secret_key
@@ -207,7 +231,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name - Harsh Kumar Singh
+- Your Name - Initial work
 
 ## 🙏 Acknowledgments
 
