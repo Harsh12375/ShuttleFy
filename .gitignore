@@ -1,0 +1,92 @@
+# PowerShell module files
+*.psd1
+*.psm1
+*.ps1xml
+
+# Compiled files
+*.dll
+*.exe
+*.obj
+*.pdb
+
+# PowerShell output files
+*.ps1.log
+*.txt.log
+
+# Module manifests that are automatically generated
+**/obj/**
+
+# PowerShell Gallery package files
+*.nupkg
+
+# VSCode settings
+.vscode/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Visual Studio files
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# PowerShell Studio files
+*.psproj
+*.psprojs
+*.pssym
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js (if using PowerShell with Node.js)
+node_modules/ 
