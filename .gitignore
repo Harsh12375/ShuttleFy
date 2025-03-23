@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+/node_modules
+/auth-backend/node_modules
+/front-end/node_modules
+/.pnp
+.pnp.js
+
+# Production build files
+/dist
+/build
+/auth-backend/dist
+/front-end/dist
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Vercel
+.vercel
+.next
